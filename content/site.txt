@@ -1,0 +1,21 @@
+﻿Title: Knowledge-Base
+
+----
+
+Author: Your company
+
+----
+
+Description: Knowledge-Base
+
+----
+
+Keywords: knowledge-base, something
+
+----
+
+Copyright: © 2012 Your company
+
+----
+
+Biography: Antonin Januska is a fine young lad who created this simple Foundation theme for Kirby CMS. His blog is beyond marvelous so you should go read it!

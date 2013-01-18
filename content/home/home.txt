@@ -1,0 +1,5 @@
+Title: Kirby CMS Foundation Theme
+
+----
+
+Text: Test
