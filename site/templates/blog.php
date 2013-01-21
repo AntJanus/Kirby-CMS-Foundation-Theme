@@ -4,7 +4,7 @@
 <section class="eight columns" id="content-area">
 <h2><?= $page->title() ?></h2>
 	<?= kirbytext($page->text()) ?>
- <?php foreach($page->children()->visible()->flip() as $article): ?>
+ <?php foreach($page->children()->visible()->flip()->paginate(10) as $article): ?>
   
   <article>
     <h3><a href="<?= $article->url() ?>"><?= html($article->title()) ?></a></h3>
