@@ -5,3 +5,5 @@ This is a Kirby Theme with the Zurb Foundation implementation. It has a simple b
 View the [preview](http://antjan.us/post) and [learn](http://antjanus.com/blog/web-development-tutorials/kirby-cms-theme-zurb-foundation/) how it was developed.
 
 As always visit [http://getkirby.com](http://getkirby.com) for more information or [my blog](http://antjanus.com)
+
+**Make sure you purchase a Kirby CMS license before you start using it!**
