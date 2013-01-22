@@ -16,7 +16,7 @@
 <hr />
 <div class="widget">
 <h5 class="subheader">Recent Articles</h5>
- <?php foreach($pages->find('blog')->children()->visible()->flip()->paginate(5) as $article): ?>
+ <?php foreach($pages->find('blog')->children()->visible()->flip()->limit(5) as $article): ?>
 <h6><a href="<?= $article->url() ?>"><?= html($article->title()) ?></a></h6>
 <?php endforeach ?>
 </div>
