@@ -18,6 +18,7 @@
 <nav class="top-bar">
   <ul> 
 <li class="name"><h1><a href="<?= url() ?>"><?= html($site->title()) ?></a></h1></li>
+<li class="toggle-topbar"><a href="#"></a></li>
   </ul>
 <section>
 <ul class="left">
@@ -27,6 +28,7 @@
     <li><a href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a></li>
     <?php endforeach ?>
 </ul>
-</nav>
 </section>
+</nav>
+
 </div>

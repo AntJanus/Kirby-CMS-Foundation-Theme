@@ -5,9 +5,11 @@
 <h2><?= $page->title() ?></h2>
 	<?= kirbytext($page->text()) ?>
 	<?php
-	$pagination = $page->children()->visible()->flip()->paginate(10);
+	$articles = $page->children()->visible()->flip()->paginate(5);
+$pagination = $articles->pagination;
+$range = 5;
 	?>
- <?php foreach($pagination as $article): ?>
+ <?php foreach($articles as $article): ?>
   
   <article>
     <h3><a href="<?= $article->url() ?>"><?= html($article->title()) ?></a><br /><small><?= $article->date('Y-m-d') ?></small></h3>
@@ -27,7 +29,7 @@
   
   <?php if(isset($range) && $pagination->countPages() > 1): ?> 
     <?php foreach($pagination->range($range) as $r): ?>
-    <li class="<?php echo ($pagination->page() == $r) ? 'unavailable' :  '' ?>" ><a class="range" href="<?php echo $pagination->pageURL($r) ?>"><?php echo $pagination->pageURL($r); ?></a></li>
+    <li class="<?php echo ($pagination->page() == $r) ? 'unavailable' :  '' ?>" ><a class="range" href="<?php echo $pagination->pageURL($r) ?>"><?php echo $r ?></a></li>
     <?php endforeach ?>
   <?php endif ?>
   
