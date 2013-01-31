@@ -1,4 +1,5 @@
-<div class="widget first-widget"><p><img src="http://antjan.us/post/assets/images/author.jpg" class="author-image" width="50px" height="50px" alt="Author Image"> <?= $site->biography ?></p></div>
+<div class="widget first-widget"><p><img src="http://antjan.us/post/assets/images/author.jpg" class="author-image" width="50px" height="50px" alt="Author Image"> <?= $site->biography ?></p>
+<p>Be sure to subscribe to my <a href="<?php echo url('/rss') ?>">RSS feed</a>!</p></div>
 <hr />
 <div class="widget">
   <h5 class="subheader">Subscribe To My Newsletter</h5>

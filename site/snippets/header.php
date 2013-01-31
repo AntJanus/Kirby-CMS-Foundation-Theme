@@ -8,6 +8,7 @@
 	<?= css('/assets/stylesheets/foundation.css') ?>
 	<?= js('/assets/javascripts/foundation.min.js') ?>
 	<?= js('/assets/javascripts/app.js') ?>
+<link rel="alternate" type="application/rss+xml" href="<?php echo url('rss') ?>" title="Blog Feed" />
 
 </head>
 

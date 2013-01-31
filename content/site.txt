@@ -1,16 +1,16 @@
-﻿Title: Knowledge-Base
+﻿Title: Foundation Theme
 
 ----
 
-Author: Your company
+Author: Antonin Januska
 
 ----
 
-Description: Knowledge-Base
+Description: Antonin Januska Kirby CMS Theme based on Foundation
 
 ----
 
-Keywords: knowledge-base, something
+Keywords: 
 
 ----
 
